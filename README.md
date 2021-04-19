@@ -14,8 +14,8 @@
 Vamos a trabajar en este mismo repositorio a través de con una serie de ramas en el siguiente orden:
 
 * [main](https://github.com/Mobile-hub/Codemotion-Spring-Edition-ES-2021/tree/main): Esta página de introducción
-* [I_The_dark_night](https://github.com/Mobile-hub/Codemotion-Spring-Edition-ES-2021/tree/I_The_dark_night) Ejercicio 1
-* [I_The_dark_night-solved](https://github.com/Mobile-hub/Codemotion-Spring-Edition-ES-2021/tree/I_The_dark_night-solved) Ejercicio 1 Resuelto
+* [I_The_dark_night](https://github.com/Mobile-hub/Codemotion-Spring-Edition-ES-2021/tree/I_The_dark_night): Ejercicio 1
+* [I_The_dark_night-solved](https://github.com/Mobile-hub/Codemotion-Spring-Edition-ES-2021/tree/I_The_dark_night-solved): Resolución ejercicio 1
 * [II_The_initiation](https://github.com/Mobile-hub/Codemotion-Spring-Edition-ES-2021/tree/II_The_initiation) ...etc
 * [II_The_initiation-solved](https://github.com/Mobile-hub/Codemotion-Spring-Edition-ES-2021/tree/II_The_initiation-solved)
 * [III_The_inner_guidance](https://github.com/Mobile-hub/Codemotion-Spring-Edition-ES-2021/tree/III_The_inner_guidance)
@@ -24,7 +24,7 @@ Vamos a trabajar en este mismo repositorio a través de con una serie de ramas e
 * [IV_The_dark_and_blessing-solved](https://github.com/Mobile-hub/Codemotion-Spring-Edition-ES-2021/tree/IV_The_dark_and_blessing-solved)
 * [V_The_return](https://github.com/Mobile-hub/Codemotion-Spring-Edition-ES-2021/tree/V_The_return)
 * [V_The_return-solved](https://github.com/Mobile-hub/Codemotion-Spring-Edition-ES-2021/tree/V_The_return-solved)
-* [gh-pages](https://github.com/Mobile-hub/Codemotion-Spring-Edition-ES-2021/tree/gh-pages) Resultado final
+* [gh-pages](https://github.com/Mobile-hub/Codemotion-Spring-Edition-ES-2021/tree/gh-pages): Resultado final
 
 
 Manuel Eusebio de Paz Carmona | 2021
