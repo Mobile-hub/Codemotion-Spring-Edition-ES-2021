@@ -1,6 +1,6 @@
 # JAM Stack | Creando sitios con Gatsby.js
 
-## Capítulo 3: La guía interior
+## Capítulo 4: La oscuridad y la bendición
 
 Narrativa...
 
