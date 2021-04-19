@@ -24,7 +24,9 @@ Vamos a trabajar en este mismo repositorio a través de con una serie de ramas e
 * [IV_The_dark_and_blessing-solved](https://github.com/Mobile-hub/Codemotion-Spring-Edition-ES-2021/tree/IV_The_dark_and_blessing-solved)
 * [V_The_return](https://github.com/Mobile-hub/Codemotion-Spring-Edition-ES-2021/tree/V_The_return)
 * [V_The_return-solved](https://github.com/Mobile-hub/Codemotion-Spring-Edition-ES-2021/tree/V_The_return-solved)
-* [gh-pages](https://github.com/Mobile-hub/Codemotion-Spring-Edition-ES-2021/tree/gh-pages): Resultado final
+* [gh-pages](https://github.com/Mobile-hub/Codemotion-Spring-Edition-ES-2021/tree/gh-pages): Resultado final*
 
+
+_*_ El resultado final estará visible en https://mobile-hub.github.io/Codemotion-Spring-Edition-ES-2021/
 
 Manuel Eusebio de Paz Carmona | 2021
