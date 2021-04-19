@@ -1,6 +1,6 @@
 # JAM Stack | Creando sitios con Gatsby.js
 
-## Capítulo 2: La Iniciación
+## Capítulo 3: La guía interior
 
 Narrativa...
 
