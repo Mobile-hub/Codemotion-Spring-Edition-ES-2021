@@ -14,6 +14,7 @@
 Vamos a trabajar en este mismo repositorio a través de con una serie de ramas en el siguiente orden:
 
 * [main](https://github.com/Mobile-hub/Codemotion-Spring-Edition-ES-2021/tree/main): Esta página de introducción
+* [0_The_departure](https://github.com/Mobile-hub/Codemotion-Spring-Edition-ES-2021/tree/0_The_departure): Preparación del entorno
 * [I_The_dark_night](https://github.com/Mobile-hub/Codemotion-Spring-Edition-ES-2021/tree/I_The_dark_night): Ejercicio 1
 * [I_The_dark_night-solved](https://github.com/Mobile-hub/Codemotion-Spring-Edition-ES-2021/tree/I_The_dark_night-solved): Resolución ejercicio 1
 * [II_The_initiation](https://github.com/Mobile-hub/Codemotion-Spring-Edition-ES-2021/tree/II_The_initiation) ...etc
