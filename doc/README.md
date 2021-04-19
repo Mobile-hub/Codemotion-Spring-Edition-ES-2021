@@ -1,6 +1,6 @@
 # JAM Stack | Creando sitios con Gatsby.js
 
-## Capítulo 1: La noche oscura
+## Capítulo 2: La Iniciación
 
 Narrativa...
 
@@ -11,4 +11,3 @@ Narrativa...
 ### Ejercicio
 
 ### Comprobación
-
