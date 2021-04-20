@@ -8,6 +8,8 @@ Su principal aliada es Trinity, y en Matrix su enemigo final, es el malvado Agen
 
 ### Preparación
 
+A partir del resultado del proyecto en la fase anterior.
+
 Arrancar en otra consola el wordpress con el siguiente comando:
 
 ````bash
@@ -21,6 +23,25 @@ Arrancar en otra consola el wordpress con el siguiente comando:
 ````
 
 ### Objetivo
+
+Conectar con el WP y descargar su contenido y renderizarlo como hicimos con los markdown.
+
+### Ejercicio
+
+1. Activar el docker-compose y probarlo:
+
+```bash
+    $> docker-compose up -d
+     
+    # Los detalles de accceso están en la imagen: doc/installation_data.png 
+    # site  http://localhost:8888/wp-login.php
+    # user admin
+    # pass admin
+    
+```
+
+1. Creamos un fichero:
+
 
 Connect to WP
 http://localhost:8888/index.php?graphql
@@ -37,7 +58,7 @@ http://localhost:8888/index.php?graphql
     }
 ````
 
-### Ejercicio
+
 
 ### Comprobación
 
