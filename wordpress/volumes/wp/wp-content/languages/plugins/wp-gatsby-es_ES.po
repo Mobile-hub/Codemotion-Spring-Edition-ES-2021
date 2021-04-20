@@ -1,0 +1,164 @@
+# Translation of Plugins - WPGatsby - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - WPGatsby - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-12-15 23:07:31+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - WPGatsby - Stable (latest release)\n"
+
+#: src/Schema/WPGatsbyWPGraphQLSchemaChanges.php:24
+#: src/Schema/WPGatsbyWPGraphQLSchemaChanges.php:50
+msgid "The url path of the first page of the archive page for this content type."
+msgstr "La ruta de la URL de la primera página de la página de archivo para este tipo de contenido."
+
+#: wp-gatsby.php:226
+msgid "WPGraphQL must be active for WPGatsby to work."
+msgstr "WPGraphQL debe estar activo para que funcione WPGatsby."
+
+#: lib/wp-settings-api.php:378
+msgid "Choose File"
+msgstr "Elegir el archivo"
+
+#: src/Admin/Settings.php:253
+msgid "This secret is used in the encoding and decoding of the JWT token. If the Secret were ever changed on the server, ALL tokens that were generated with the previous Secret would become invalid. So, if you wanted to invalidate all user tokens, you can change the Secret on the server and all previously issued tokens would become invalid and require users to re-authenticate."
+msgstr "Esta clave secreta se usa en el cifrado y descifrado del token JWT. Si alguna vez se cambiara la clave secreta en el servidor, TODOS los tokens que se generaron con la clave secreta anterior dejarían de ser válidos. Por tanto, si quieres invalidar todos los tokens de usuario, puedes cambiar la clave secreta en el servidor y todos los tokens emitidos previamente dejarán de ser válidos y requerirán que los usuarios se vuelvan a identificar."
+
+#: src/ActionMonitor/ActionMonitor.php:407
+msgid "The post status of the post that triggered this action"
+msgstr "El estado de la entrada que ha ejecutado esta acción"
+
+#: src/ActionMonitor/ActionMonitor.php:493
+msgid "The post ID of the post that triggered this action"
+msgstr "El ID de la entrada que ha ejecutado esta acción"
+
+#: src/ActionMonitor/ActionMonitor.php:520
+msgid "The global relay ID of the post that triggered this action"
+msgstr "El ID de transmisión global de la entrada que ha ejecutado esta acción"
+
+#: src/ActionMonitor/ActionMonitor.php:548
+msgid "The WPGraphQL single name of the referenced post"
+msgstr "El nombre singular de WPGraphQL de la entrada referenciada"
+
+#: src/ActionMonitor/ActionMonitor.php:138
+#: src/ActionMonitor/ActionMonitor.php:139
+#: src/ActionMonitor/ActionMonitor.php:146
+msgid "Action Monitor"
+msgstr "Action Monitor"
+
+#: src/ActionMonitor/ActionMonitor.php:569
+msgid "The WPGraphQL plural name of the referenced post"
+msgstr "El nombre plural de WPGraphQL de la entrada referenciada"
+
+#: src/ActionMonitor/ActionMonitor.php:382
+msgid "The type of action (CREATE, UPDATE, DELETE)"
+msgstr "El tipo de acción (CREATE, UPDATE, DELETE)"
+
+#: src/Admin/Settings.php:252
+msgid "Preview JWT Secret"
+msgstr "Clave secreta de previsualización de JWT"
+
+#: src/Admin/Settings.php:242
+msgid "Preview Webhook"
+msgstr "Webhook de previsualización"
+
+#: src/Admin/Settings.php:233
+msgid "Enter your Gatsby Preview instance URL. Must begin with http:// or https://."
+msgstr "Introduce la URL de tu instancia de previsualización de Gatsby. Debe comenzar con http:// o https://."
+
+#: src/Admin/Settings.php:232
+msgid "Preview Instance"
+msgstr "Instancia de previsualización"
+
+#: src/Admin/Settings.php:227 src/Admin/Settings.php:261
+msgid "Yes"
+msgstr "Sí"
+
+#: src/Admin/Settings.php:226
+msgid "Enable Gatsby Preview?"
+msgstr "¿Activar la previsualización de Gatsby?"
+
+#: src/Admin/Settings.php:218 src/Admin/Settings.php:234
+#: src/Admin/Settings.php:244
+msgid "https://"
+msgstr "https://"
+
+#: src/Admin/Settings.php:216
+msgid "Builds Webhook"
+msgstr "Webhook de compilación"
+
+#: src/Admin/Settings.php:116
+msgid "Settings"
+msgstr "Ajustes"
+
+#: src/Schema/SiteMeta.php:173
+msgid "Returns an MD5 hash of the schema, useful in determining if the schema has changed."
+msgstr "Devuelve un hash MD5 del esquema, útil para determinar si el esquema ha cambiado."
+
+#: src/Schema/SiteMeta.php:161
+msgid "Confirms this is a WP Gatsby site"
+msgstr "Confirma que este es un sitio WP Gatsby"
+
+#: src/Schema/SiteMeta.php:100
+msgid "No WPGatsby version was provided for the compatibility check. Please provide a semver version range for checking compatibility with WPGatsby."
+msgstr "No se ha proporcionado ninguna versión de WPGatsby para la comprobación de compatibilidad. Por favor, proporciona un rango de versiones semver para comprobar la compatibilidad con WPGatsby."
+
+#: src/Schema/SiteMeta.php:91
+msgid "No WPGraphQL version was provided for the compatibility check. Please provide a semver version range for checking compatibility with WPGraphQL."
+msgstr "No se ha proporcionado ninguna versión de WPGraphQL para la comprobación de compatibilidad. Por favor, proporciona un rango de versiones semver para comprobar la compatibilidad con WPGraphQL."
+
+#: src/Schema/SiteMeta.php:81
+msgid "The semver version range of WPGatsby that the requester wants to check compatibility with"
+msgstr "El rango de versiones semver de WPGatsby con el que el solicitante desea comprobar la compatibilidad"
+
+#: src/Schema/SiteMeta.php:77
+msgid "The semver version range of WPGraphQL that the requester wants to check compatibility with"
+msgstr "El rango de versiones semver de WPGraphQL con el que el solicitante desea comprobar la compatibilidad"
+
+#: src/Schema/SiteMeta.php:72
+msgid "Information about the compatibility of the WordPress server with a provided version of gatsby-source-wordpress."
+msgstr "Información sobre la compatibilidad del servidor de WordPress con una versión proporcionada de gatsby-source-wordpress."
+
+#: src/Schema/SiteMeta.php:59 src/Admin/Preview.php:290
+msgid "Check compatibility with a given version of gatsby-source-wordpress and the WordPress source site."
+msgstr "Comprueba la compatibilidad con una versión determinada de gatsby-source-wordpress y el sitio WordPress fuente."
+
+#: src/Schema/SiteMeta.php:50
+msgid "Whether the provided version range requirement for WPGatsby is met by this WP instance."
+msgstr "Si esta instancia de WP cumple con el requisito de rango de versión proporcionado para WPGatsby."
+
+#: src/Schema/SiteMeta.php:46
+msgid "Whether the provided version range requirement for WPGraphQL is met by this WP instance."
+msgstr "Si esta instancia de WP cumple con el requisito de rango de versiones proporcionado para WPGraphQL."
+
+#: src/Schema/SiteMeta.php:42
+msgid "Check compatibility with WPGatsby and WPGraphQL."
+msgstr "Comprueba la compatibilidad con WPGatsby y WPGraphQL."
+
+#: wp-gatsby.php:91
+msgid "De-serializing instances of the WPGATSBY class is not allowed"
+msgstr "No se permite la deserialización de instancias de la clase WPGATSBY"
+
+#: wp-gatsby.php:76
+msgid "The WPGATSBY class should not be cloned."
+msgstr "La clase WPGATSBY no debe clonarse."
+
+#. Author URI of the plugin
+msgid "https://gatsbyjs.org"
+msgstr "https://gatsbyjs.org"
+
+#. Author of the plugin
+msgid "GatsbyJS, Jason Bahl, Tyler Barnes"
+msgstr "GatsbyJS, Jason Bahl, Tyler Barnes"
+
+#. Plugin Name of the plugin
+msgid "WP Gatsby"
+msgstr "WP Gatsby"
+
+#. Description of the plugin
+msgid "Optimize your WordPress site to be a source for Gatsby sites."
+msgstr "Optimiza tu sitio WordPress para que sea una fuente para sitios Gatsby."
