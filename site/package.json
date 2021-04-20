@@ -1,0 +1,31 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Site",
+  "author": "John Doe",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^3.3.1",
+    "gatsby-plugin-image": "^1.3.1",
+    "gatsby-plugin-react-helmet": "^4.3.0",
+    "gatsby-plugin-sass": "^4.3.0",
+    "gatsby-plugin-sharp": "^3.3.1",
+    "gatsby-source-filesystem": "^3.3.0",
+    "gatsby-source-wordpress": "^5.3.1",
+    "gatsby-transformer-sharp": "^3.3.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "sass": "^1.32.11"
+  }
+}
