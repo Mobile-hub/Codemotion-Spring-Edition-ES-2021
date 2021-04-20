@@ -25,5 +25,12 @@ module.exports = {
       },
       __key: "images",
     },
+    {
+      resolve: `gatsby-source-wordpress`,
+      options: {
+        url: "http://localhost:8888/index.php?graphql",
+        verbose: true,
+      },
+    }
   ],
 };
