@@ -22,7 +22,53 @@ En el asistente indicaremos las siguientes opciones:
 
 ![Instructions](step-1.1.png)
 
-2) Generar un fichero index.js
+Al preguntarnos por la url de Wordpress indicaremos: http://localhost:8888/index.php?graphql
+
+2) Ajustar la configuración de gatsby según este fichero:
+
+````javascript
+
+    module.exports = {
+      siteMetadata: {
+        title: "Codemotion Spring ES 2021 | Gatsby Workshop",
+        siteUrl: "https://localhost:8000"
+      },
+      plugins: [
+      /*
+        {
+          resolve: "gatsby-source-wordpress",
+          options: {
+            url: "http://localhost:8888/index.php?graphql",
+          },
+        },
+      */
+        "gatsby-plugin-sass",
+        "gatsby-plugin-image",
+        "gatsby-plugin-react-helmet",
+        "gatsby-plugin-sharp",
+        "gatsby-transformer-sharp",
+        {
+          resolve: "gatsby-source-filesystem",
+          options: {
+            name: "images",
+            path: "./src/images/",
+          },
+          __key: "images",
+        },
+      ],
+    };
+
+````
+
+3) Lanzar y probar la web:
+   
+````bash
+
+    $> npm run develop
+    
+````
+
+4) Generar un fichero index.js
 
 Una vez hallamos lanzado por primera vez el site con ```gatsby serve``` o ```npm run start```
 
