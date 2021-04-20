@@ -97,7 +97,7 @@ Una vez hallamos lanzado por primera vez el site con ```gatsby develop``` o ```n
     $> gatsby serve                 # Abrimos http://localhost:8000 y http://localhost:8000/___graphql
     
     # Construimos nuestro site
-    $> gatsby deploy 
+    $> gatsby build 
     $> cd public
     $> hs                           # Y comprobamos las url: http://localhost:8080
 
