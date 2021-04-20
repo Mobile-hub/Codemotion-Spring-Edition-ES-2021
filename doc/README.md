@@ -94,7 +94,7 @@ Una vez hallamos lanzado por primera vez el site con ```gatsby develop``` o ```n
 ```bash
     
     # Probamos nuestro site en desarrollo: 
-    $> gatsby serve                 # Abrimos http://localhost:8000 y http://localhost:8000/___graphql
+    $> gatsby develop               # Abrimos http://localhost:8000 y http://localhost:8000/___graphql
     
     # Construimos nuestro site
     $> gatsby build 
