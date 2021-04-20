@@ -10,6 +10,21 @@ Su principal aliada es Trinity, y en Matrix su enemigo final, es el malvado Agen
 
 ### Objetivo
 
+Connect to WP
+http://localhost:8888/index.php?graphql
+
+````json
+    query MyQuery {
+        posts {
+            nodes {
+                id
+                date
+                content(format: RAW)
+            }
+        }
+    }
+````
+
 ### Ejercicio
 
 ### Comprobación
