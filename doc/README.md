@@ -7,11 +7,21 @@ o pastilla roja y cruzar el umbral. Neo elige la pastilla roja. Entra en el mund
 
 ### Preparación
 
+A partir del site funcionando en el paso anterior. 
+
 ### Objetivo
 
-Añadir hoja de estilos global
-Add Seguir tuto de PDF
+* Añadir estilos como estáticos en formato sass
+* Añadir contenidos a partir de ficheros markdown que se renderizarán como páginas.
+
 
 ### Ejercicio
 
+1) Vamos a añadir una hoja de estilos global
+
+
+
+2) Vamos a añadir un directorio estático con pdf que se renderizarán como webs
+
 ### Comprobación
+
