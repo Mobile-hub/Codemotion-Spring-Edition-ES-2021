@@ -9,6 +9,9 @@ o pastilla roja y cruzar el umbral. Neo elige la pastilla roja. Entra en el mund
 
 ### Objetivo
 
+Añadir hoja de estilos global
+Add Seguir tuto de PDF
+
 ### Ejercicio
 
 ### Comprobación
