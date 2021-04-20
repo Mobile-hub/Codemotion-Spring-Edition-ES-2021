@@ -1,8 +1,8 @@
 # JAM Stack | Creando sitios con Gatsby.js
 
 ## Capítulo 1: La noche oscura
-Neo es consciente de un nuevo mundo cuando aparece lo siguiente en su pantalla: ```Knock, knock... Despierta Neo. 
-Matrix te tiene. Sigue al conejo blanco.``` Neo sigue al conejo, tatuado en el hombro de una chica que acompaña a un grupo 
+Neo es consciente de un nuevo mundo cuando aparece lo siguiente en su pantalla: ```Knock, knock... Despierta Neo.
+Matrix te tiene. Sigue al conejo blanco.``` Neo sigue al conejo, tatuado en el hombro de una chica que acompaña a un grupo
 que lo visita y así encuentra a Trinity, quien le acerca a la verdad.
 
 ### Preparación
@@ -28,32 +28,32 @@ Al preguntarnos por la url de Wordpress indicaremos: http://localhost:8888/index
 
 ````javascript
 
-    module.exports = {
-      siteMetadata: {
+module.exports = {
+    siteMetadata: {
         title: "Codemotion Spring ES 2021 | Gatsby Workshop",
         siteUrl: "https://localhost:8000"
-      },
-      plugins: [
+    },
+    plugins: [
         "gatsby-plugin-sass",
         "gatsby-plugin-image",
         "gatsby-plugin-react-helmet",
         "gatsby-plugin-sharp",
         "gatsby-transformer-sharp",
         {
-          resolve: "gatsby-source-filesystem",
-          options: {
-            name: "images",
-            path: "./src/images/",
-          },
-          __key: "images",
+            resolve: "gatsby-source-filesystem",
+            options: {
+                name: "images",
+                path: "./src/images/",
+            },
+            __key: "images",
         },
-      ],
-    };
+    ],
+};
 
 ````
 
 3) Lanzar y probar la web:
-   
+
 ````bash
 
     $> npm start
@@ -94,10 +94,10 @@ Una vez hallamos lanzado por primera vez el site con ```gatsby develop``` o ```n
 ```bash
     
     # Probamos nuestro site en desarrollo: 
-    $> gatsby serve                 # Abrimos http://localhost:8000 y http://localhost:8000/___graphql
+    $> gatsby develop               # Abrimos http://localhost:8000 y http://localhost:8000/___graphql
     
     # Construimos nuestro site
-    $> gatsby deploy 
+    $> gatsby build 
     $> cd public
     $> hs                           # Y comprobamos las url: http://localhost:8080
 
