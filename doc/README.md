@@ -34,14 +34,6 @@ Al preguntarnos por la url de Wordpress indicaremos: http://localhost:8888/index
         siteUrl: "https://localhost:8000"
       },
       plugins: [
-      /*
-        {
-          resolve: "gatsby-source-wordpress",
-          options: {
-            url: "http://localhost:8888/index.php?graphql",
-          },
-        },
-      */
         "gatsby-plugin-sass",
         "gatsby-plugin-image",
         "gatsby-plugin-react-helmet",
@@ -64,13 +56,32 @@ Al preguntarnos por la url de Wordpress indicaremos: http://localhost:8888/index
    
 ````bash
 
-    $> npm run develop
+    $> npm start
     
+    # Podras ver la web en: http://localhost:8000/
+    # Podras ver un cliente de graphql en: http://localhost:8000/___graphql
+
+````
+
+En el cliente de Graphql, lanza las siguientes queries:
+
+````json
+
+query MyQuery {
+  allSitePage {
+    edges {
+      node {
+        id
+      }
+    }
+  }
+}
+
 ````
 
 4) Generar un fichero index.js
 
-Una vez hallamos lanzado por primera vez el site con ```gatsby serve``` o ```npm run start```
+Una vez hallamos lanzado por primera vez el site con ```gatsby develop``` o ```npm run start```
 
 ```bash
     $> cp .cache/default-html.js src/html.js
