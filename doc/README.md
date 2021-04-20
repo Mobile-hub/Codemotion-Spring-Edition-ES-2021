@@ -7,7 +7,7 @@ o pastilla roja y cruzar el umbral. Neo elige la pastilla roja. Entra en el mund
 
 ### Preparación
 
-A partir del site funcionando en el paso anterior. 
+A partir del site funcionando en el paso anterior.
 
 ### Objetivo
 
