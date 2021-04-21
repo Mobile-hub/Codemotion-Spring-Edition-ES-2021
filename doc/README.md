@@ -28,12 +28,14 @@ o pastilla roja y cruzar el umbral. Neo elige la pastilla roja. Entra en el mund
 1.1 Creamos un directorio static en la raíz del proyecto
 1.2 Descomprimimos el contenido del zip del Skeleton-2.0.4.zip en site/static debería quedar así:
 
+````bash
 ├── css
 │   ├── normalize.css
 │   └── skeleton.css
 ├── images
 │   └── favicon.png
 └── styles.sass
+````
 
 1.3 Creamos un fichero en **static/styles.sass** con el siguiente contenido:
 
