@@ -6,8 +6,20 @@ Neo regresa al mundo ordinario, convertido en un salvador, y decidido a mostrar 
 
 ### Preparación
 
+Cualquier versión finalizada de las anteriores
+
 ### Objetivo
+
+Desplegar en la nube de AWS el producto final
 
 ### Ejercicio
 
+1. Desplegar el stack
+````
+
+
+````
+
 ### Comprobación
+
+Acceder a la url de cloudfront proporcionada.
