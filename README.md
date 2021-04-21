@@ -9,6 +9,11 @@
 > 
 > y... por si fuera poco, todo ello lo vamos a subir a la nube de AWS.
 
+## Slides
+
+Aquí puedes encontrar las slides:
+https://www.slideshare.net/Pelirrojo7/codemotion-2021-jamstack-workshop/Pelirrojo7/codemotion-2021-jamstack-workshop
+
 ## HowTo
 
 Vamos a trabajar en este mismo repositorio a través de con una serie de ramas en el siguiente orden:
